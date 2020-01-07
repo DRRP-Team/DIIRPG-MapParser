@@ -162,7 +162,7 @@ class Map():
 
             if polyverts != 2:  # Common polygon
                 for _ in range(polyverts):
-                    print('vertid', vertid)
+                    debug('vertid', vertid)
                     vert = self.vertices[vertid]
 
                     obj.append("v %d %d %d" % (vert['x'], vert['y'], vert['z']))
@@ -220,7 +220,7 @@ class Map():
 
             if polyverts != 2:  # Common polygon
                 for _ in range(polyverts):
-                    print('vertid', vertid)
+                    debug('vertid', vertid)
                     vert = self.vertices[vertid]
 #                   obj.append("vertex {")
 #                   obj.append("  x=%d;" % vert['x'])

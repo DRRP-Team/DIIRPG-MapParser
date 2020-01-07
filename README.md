@@ -7,7 +7,7 @@
 > Copyright (c) PROPHESSOR 2019
 
 ```sh
-python mapparser.py path/to/map.bin
+python3 mapparser.py path/to/map.bin
 ```
 
 ## mapparser.cpp
