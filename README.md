@@ -16,7 +16,7 @@ python mapparser.py path/to/map.bin
 
 ```sh
 make
-./mapparser path/to/map.bin
+./mapparser path/to/map.bin > path/to/output.obj
 ```
 
 ## Summary

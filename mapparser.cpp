@@ -9,7 +9,7 @@
 #include <time.h>
 #include <cstdint>
 
-#define DEBUG true
+#define DEBUG false
 
 struct  __attribute__((packed)) map_header_t {
     uint8_t version;

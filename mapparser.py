@@ -10,7 +10,7 @@
 
 from datetime import datetime
 
-DEBUG         = True
+DEBUG         = False
 GENERATE_OBJ  = True
 GENERATE_UDMF = False
 
