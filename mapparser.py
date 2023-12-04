@@ -284,8 +284,8 @@ class Map():
 
         for vv in v:
             obj.append("vertex {")
-            obj.append("  x=%d;" % vv[0])
-            obj.append("  y=%d;" % vv[1])
+            obj.append("  x=%d;" % (vv[0] * 8))
+            obj.append("  y=%d;" % (vv[1] * 8))
             obj.append("}")
 
         obj.append("sidedef {")
